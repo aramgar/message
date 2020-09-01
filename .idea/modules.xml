@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Chat whit socket.iml" filepath="$PROJECT_DIR$/.idea/Chat whit socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Php Dersleri/.idea/Php Dersleri.iml" filepath="$PROJECT_DIR$/../Php Dersleri/.idea/Php Dersleri.iml" />
     </modules>
   </component>
 </project>

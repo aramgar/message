@@ -48,7 +48,7 @@
             let emit = socket.emit("send" , name);
 
             if (emit !== false) {
-                sessionStorage.setItem('personId' , personId);
+                sessionStorage.ssetItem('personId' , personId);
                 sessionStorage.setItem('name' , name);
 
                 console.log('Person Id From Session : ' + sessionStorage.getItem('personId') + '\nName From Session :' + sessionStorage.getItem('name'));
