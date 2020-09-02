@@ -10,6 +10,9 @@ const io = require("socket.io")(http);// create socket instance with http
 
 const fs = require('fs');
 
+const prependFile = require('prepend-file');
+
+
 http.listen(port, function() {
     console.log("listening the port "+ port);
 });
@@ -25,16 +28,18 @@ io.sockets.on('connection' , function (socket){
 io.on("connection", function(socket) {
     //this is socket for each user
     console.log("user Connected ", socket.id);
-
-    let nickId =  ":  " + socket.id + "\n"; //                                  burda kaldınnn adı ekleyeceksin
-    fs.appendFile('chat.txt', nickId , function (err) {
-        if (err) throw err;
-        console.log('Nicks');
-    });
+    let isNameWritten = false;
 
     //server should listen from each client via it's socket
     socket.on("newMessage" , function (data) {
         console.log("Client Says: " , data);
+
+        if(!isNameWritten){
+
+            let header = data.name + ":  " + socket.id + "\n ------------------------------------ \n";
+            prependFile('chat.txt', header).then(r => r);
+            isNameWritten = true;
+        }
 
         let dataFile = data.name + ": " + data.message + "   :  " + data.curr_date + " - " + data.date + "\n";
         fs.appendFile('chat.txt', dataFile, function (err) {

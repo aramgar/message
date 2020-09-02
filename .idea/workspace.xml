@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f440b890-6264-4ad6-8f45-807429c0bb7f" name="Default Changelist" comment="" />
+    <list default="true" id="f440b890-6264-4ad6-8f45-807429c0bb7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Chat whit socket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chat whit socket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Php Dersleri" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog Sitesi 5" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\Program Files\PhpStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -50,11 +77,23 @@
       <workItem from="1598856163833" duration="4741000" />
       <workItem from="1598885827183" duration="12023000" />
       <workItem from="1598960413198" duration="16873000" />
+      <workItem from="1599023626069" duration="16245000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="209" key="#Inspections" timestamp="1598954638815">
@@ -66,18 +105,18 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="583" y="198" key="#Intentions/62.0.1858.1080@62.0.1858.1080" timestamp="1598859281769" />
-    <state x="742" y="363" key="#Notifications" timestamp="1598967598347">
+    <state x="742" y="363" key="#Notifications" timestamp="1599033112405">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="742" y="363" key="#Notifications/62.0.1858.1080@62.0.1858.1080" timestamp="1598967598347" />
+    <state x="742" y="363" key="#Notifications/62.0.1858.1080@62.0.1858.1080" timestamp="1599033112405" />
     <state x="445" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598611159156">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="445" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1598611159156" />
-    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1598939301121">
+    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1599046894171">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1598939301121" />
+    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1599046894171" />
     <state x="791" y="262" key="NewPhpClassDialog" timestamp="1598939292944">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -90,11 +129,11 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/62.0.1858.1080@62.0.1858.1080" timestamp="1598622125248" />
-    <state x="594" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598979927517">
+    <state x="594" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599031877823">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="594" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1858.1080/1920.0.1920.1050@62.0.1858.1080" timestamp="1598979927517" />
-    <state x="594" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1598967624658" />
+    <state x="594" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1599031877823" />
     <state x="698" y="139" width="585" height="801" key="find.popup" timestamp="1598950206720">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -108,10 +147,10 @@
     </state>
     <state x="2536" y="243" width="672" height="677" key="run.anything.popup/62.0.1858.1080/1920.0.1920.1050@1920.0.1920.1050" timestamp="1598457976635" />
     <state x="658" y="250" width="672" height="697" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1598961611138" />
-    <state x="659" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1598961625947">
+    <state x="659" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1599026516747">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="401" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.0.1920.1050@62.0.1858.1080" timestamp="1598456150414" />
-    <state x="659" y="401" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1598961625947" />
+    <state x="659" y="401" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1599026516747" />
   </component>
 </project>

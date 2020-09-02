@@ -20,6 +20,7 @@
 
 <script>
 
+
     const server = "http://localhost:3000";
     let ioC;
     let socket;
@@ -35,7 +36,6 @@
 
     let curr_dates = curr_date();
 
-
     $(document).ready(function () {
         ioC =  io(server);
         socket = ioC.connect();
@@ -48,7 +48,7 @@
             let emit = socket.emit("send" , name);
 
             if (emit !== false) {
-                sessionStorage.ssetItem('personId' , personId);
+                sessionStorage.setItem('personId' , personId);
                 sessionStorage.setItem('name' , name);
 
                 console.log('Person Id From Session : ' + sessionStorage.getItem('personId') + '\nName From Session :' + sessionStorage.getItem('name'));

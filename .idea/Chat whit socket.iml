@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="module" module-name="Php Dersleri" />
+    <orderEntry type="module" module-name="Blog Sitesi 5" />
   </component>
 </module>
